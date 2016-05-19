@@ -1,0 +1,19 @@
+.email-style {
+  width: 300px;
+}
+
+.url-style {
+  width: 300px;
+}
+
+input:valid {
+  background-color: green;
+}
+
+input:invalid {
+  background-color: red;
+}
+
+/*Paste the banking form HTML into your document.
+When a valid web URL or email address is entered into the corresponding field, the color of the field should be green.
+If the value is invalid, the color should be red.*/

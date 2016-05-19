@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Banking Form</title>
+  <link rel="stylesheet" href="validation.css">
+</head>
+<body>
+
+  <fieldset>
+    <legend>Personal Information</legend>
+      <div>
+        <label for="First Name">First Name:</label>
+        <input type="text" name="" value="" placeholder="First Name">
+      </div>
+      <div>
+        <label for="Middle Initial">Middle Initial:</label>
+        <input type="text" name="" value="" placeholder="Middle Initial">
+      </div>
+      <div>
+        <label for="Last Name">Last Name:</label>
+        <input type="text" name="" value="" placeholder="Last Name">
+      </div>
+      <div>
+        <label for="Address">Address:</label>
+        <textarea name="" value="" placeholder="Number and Street Address" rows="1" cols="60"></textarea>
+      </div>
+      <div>
+        <label for="City">City:</label>
+        <input type="text" name="" value="" placeholder="City">
+        <label for="State">State:</label>
+        <input type="text" name="" value="" placeholder="State">
+      </div>
+      <div>
+        <label for="Occupation">Occupation:</label>
+        <input type="text" name="" value="" placeholder="Occupation">
+      </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Employer Information</legend>
+      <div>
+        <label for="Employer">Employer:</label>
+        <input type="text" name="" value="" placeholder="Employer">
+      </div>
+      <div>
+        <label for="Address">Address:</label>
+        <textarea name="" value="" placeholder="Number and Street Address" rows="1" cols="60"></textarea>
+      </div>
+      <div>
+        <label for="City">City:</label>
+        <input type="text" name="" value="" placeholder="City">
+        <label for="State">State:</label>
+        <input type="text" name="" value="" placeholder="State">
+      </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Loan Information</legend>
+      <label for="Loan Type">Loan Type:</label>
+        <select name="Loan Type">
+          <option value="">Commercial</option>
+          <option value="">Real Estate</option>
+          <option value="">Personal</option>
+          <option value="">Mortgage</option>
+        </select>
+      <div>
+        <label for="Loan Amount">Loan Amount:</label>
+        <input type="text" name="" value="$">
+      </div>
+        <input type="radio" name="loan length" value="5 years">5 years
+        <input type="radio" name="loan length" value="15 years">15 years
+        <input type="radio" name="loan length" value="30 years">30 years
+  </fieldset>
+
+  <fieldset>
+    <legend>Special Conditions</legend>
+      <input type="checkbox" name="Down Payment">I have a down payment
+      <input type="checkbox" name="Out of State">Out-of-state resident
+      <div>
+        <input type="checkbox" name="Married">Married
+        <input type="checkbox" name="Co-signed">Loan will be co-signed
+      </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Comments</legend>
+      <textarea name="Comments" rows="4" cols="80" placeholder="Additional Comments"></textarea>
+  </fieldset>
+
+  <fieldset>
+    <legend>Contact Info</legend>
+      <div>
+        <label for="email">Email:</label>
+        <form>
+          <input type="email" class="email-style" placeholder="please enter a valid email address"  required>
+        </form>
+
+      </div>
+      <div>
+        <label for="phone">Phone:</label>
+        <input type="phone" name="phone" placeholder="phone #">
+      </div>
+        <label for="url">LinkedIN URL:</label>
+        <form>
+          <input type="url" class="url-style" placeholder="please enter a valid URL" rows="1" cols="50" required></input>
+        </form>
+
+      </div>
+  </fieldset>
+</body>
+</html>
+
+
+
